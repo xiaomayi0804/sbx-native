@@ -45,12 +45,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "9f2a7c1e-4d8a-4b3b-9c2f-7a6e5b8d4a11");
+    private static final String UUID = env("UUID", "c8f4a7b2-9d3e-4a1c-8f6d-2e7a9d4b6c33");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "rose.xiaomayi.nyc.mn");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiODE0MTcyZmItMDUxOS00NGExLTgyYTUtODI0YmU2NzkyMGVmIiwicyI6Ik16azFOVGcyTUdFdE5qUXhOaTAwTW1NeUxUaGtObVl0WlRNNE9UUXdNRGxpTm1NMiJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "pingless.xiaomayi.nyc.mn");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiODZlNTg0MTQtZTg4NC00Zjc2LWEzNWYtMzFhY2NmZGVkNzRlIiwicyI6Ik5tUTBNemN4TnpBdE1qZ3pOeTAwTURBeExUazBZVFV0WVRKbU56VTJabVZpT0dRNCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
