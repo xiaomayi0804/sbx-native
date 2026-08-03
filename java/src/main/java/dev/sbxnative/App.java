@@ -45,12 +45,12 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "c8f4a7b2-9d3e-4a1c-8f6d-2e7a9d4b6c33");
+    private static final String UUID = env("UUID", "119d8caf-42d4-480e-81be-084fa2920b89");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "pingless.xiaomayi.nyc.mn");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiODZlNTg0MTQtZTg4NC00Zjc2LWEzNWYtMzFhY2NmZGVkNzRlIiwicyI6Ik5tUTBNemN4TnpBdE1qZ3pOeTAwTURBeExUazBZVFV0WVRKbU56VTJabVZpT0dRNCJ9");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "gm.xiaomayi.nyc.mn");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiZTM3YjcxMTYtZDMzYy00NzkxLThjNjktYjM0NmQzMGY2ZjVjIiwicyI6IlpqTmhPRGt3TVRJdE5tUmxaQzAwTVdNNUxXSTFZemN0WkdFeU4yRXhNVEpsTm1JeiJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
@@ -61,8 +61,8 @@ public class App {
     private static final int CFPORT = envInt("CFPORT", 443);
     private static final int PORT = envInt("PORT", 3000);
     private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "668014216");
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "8336262406:AAE-07vZdOLR7ySnW38w_XdDP057j9F8bT8");
+    private static final String CHAT_ID = env("CHAT_ID", "");
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
