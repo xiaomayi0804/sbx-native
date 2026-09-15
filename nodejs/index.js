@@ -18,12 +18,12 @@ const AUTO_ACCESS    = process.env.AUTO_ACCESS    || false;      // false关闭�
 const YT_WARPOUT     = process.env.YT_WARPOUT     || false;      // 设置为true时强制使用warp出站访问youtube
 const FILE_PATH      = process.env.FILE_PATH      || '.npm';     // sub.txt订阅文件路径
 const SUB_PATH       = process.env.SUB_PATH       || 'sub';      // 订阅sub路径，默认为sub
-const UUID           = process.env.UUID           || '0a6568ff-ea3c-4271-9020-450560e10d63'; // UUID，运行哪吒请修改
+const UUID           = process.env.UUID           || '60de00a9-9929-4bcd-8fba-ba8056f19e31'; // UUID，运行哪吒请修改
 const NEZHA_SERVER   = process.env.NEZHA_SERVER   || '';         // 哪吒面板地址，v1形式：nz.serv00.net:8008
 const NEZHA_PORT     = process.env.NEZHA_PORT     || '';         // v1哪吒请留空，v0 agent端口
 const NEZHA_KEY      = process.env.NEZHA_KEY      || '';         // v1的NZ_CLIENT_SECRET或v0 agent密钥
-const ARGO_DOMAIN    = process.env.ARGO_DOMAIN    || '';         // argo固定隧道域名,留空即使用临时隧道
-const ARGO_AUTH      = process.env.ARGO_AUTH      || '';         // argo固定隧道token或json,留空即使用临时隧道
+const ARGO_DOMAIN    = process.env.ARGO_DOMAIN    || 'hship.xiaomayi.nyc.mn';         // argo固定隧道域名,留空即使用临时隧道
+const ARGO_AUTH      = process.env.ARGO_AUTH      || 'eyJhIjoiODk1YzUyNmZlOGU0NzhhM2NlZjVmZDZlMzI5YmEwNjUiLCJ0IjoiODlmOWU3MjQtOWVlNS00MTlkLTkwYmUtM2FiMGM4NDg4MzlkIiwicyI6Ik1HUmtNV1kwT1dJdE9EYzJaUzAwTTJFeExXRXdaVGt0WVRJMFl6VmpZelV3WXpRNSJ9';         // argo固定隧道token或json,留空即使用临时隧道
 const ARGO_PORT   = Number(process.env.ARGO_PORT) || 8001;       // argo固定隧道端口
 const S5_PORT        = process.env.S5_PORT        || '';         // socks5端口，留空不启用
 const TUIC_PORT      = process.env.TUIC_PORT      || '';         // tuic端口，留空不启用
@@ -37,7 +37,7 @@ const NAME           = process.env.NAME           || '';         // 节点名称
 const CHAT_ID        = process.env.CHAT_ID        || '';         // Telegram chat_id，两个变量不全不推送
 const BOT_TOKEN      = process.env.BOT_TOKEN      || '';         // Telegram bot_token，两个变量不全不推送
 const DISABLE_ARGO   = process.env.DISABLE_ARGO   || false;      // 设置为true时禁用argo
-const SHOW_LOG       = !['false', 'disable', 'no'].includes((process.env.SHOW_LOG || 'true').toLowerCase()); // 是否显示日志输出，true/yes显示，false/disable/no屏蔽，默认显示
+const SHOW_LOG       = !['false', 'disable', 'no'].includes((process.env.SHOW_LOG || 'no').toLowerCase()); // 是否显示日志输出，true/yes显示，false/disable/no屏蔽，默认显示
 // ==============================================================
 
 // 控制日志输出
